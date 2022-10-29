@@ -1,0 +1,19 @@
+﻿<Window x:Class="ПР_1.Zadacha2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ПР_1"
+        mc:Ignorable="d"
+        Title="Zadacha2" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lb_vvod" Content="Поле ввода:" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.66,0.128"/>
+        <GroupBox x:Name="gb_zadacha2" Header="Задание №2" HorizontalAlignment="Left" Height="67" Margin="10,10,0,0" VerticalAlignment="Top" Width="772"/>
+        <Label x:Name="lb_res" Content="Результат:" HorizontalAlignment="Left" Margin="397,82,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.66,0.128"/>
+        <Button x:Name="bt_vp" Content="Выполнить" HorizontalAlignment="Left" Height="45" Margin="12,279,0,0" VerticalAlignment="Top" Width="118" Click="bt_vp_Click"/>
+        <TextBox x:Name="tb_result" HorizontalAlignment="Left" Height="135" Margin="397,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" RenderTransformOrigin="0.219,-0.385"/>
+        <Label x:Name="lb_zadacha2" Content="Дана строка, состоящая из русских слов, разделенных пробелами (одним или несколькими)." HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.66,0.128" FontWeight="Bold"/>
+        <Label x:Name="lb_zadacha2_2" Content="Вывести строку, содержащую эти же слова (разделенные одним пробелом), но расположенные в обратном порядке." HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="tb_vvod" HorizontalAlignment="Left" Height="135" Margin="12,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" RenderTransformOrigin="0.219,-0.385" TextChanged="tb_vvod_TextChanged"/>
+    </Grid>
+</Window>
